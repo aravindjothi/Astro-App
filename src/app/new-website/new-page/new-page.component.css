@@ -19,7 +19,7 @@ li {
   height: 66px;
   background: #1a1a1a;
 }
-/*Making the li's inside of our navbar interactive with color change and padding/margin*/
+/*Making the li's inside of our navbar1 interactive with color change and padding/margin*/
 li:hover {
   flex:1.1;
   transition:all .2s ease;

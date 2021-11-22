@@ -5,10 +5,10 @@ import {MenuItem} from "primeng/api";
 
 @Component({
   selector: 'app-navbar',
-  templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  templateUrl: './navbar1.component.html',
+  styleUrls: ['./navbar1.component.css']
 })
-export class NavbarComponent implements OnInit {
+export class Navbar1Component implements OnInit {
   openLink() {
     window.open("/my-test");
   }

@@ -1,10 +1,7 @@
 import { NgModule } from '@angular/core';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { WelAstroComponent } from './wel-astro/wel-astro.component';
@@ -15,20 +12,17 @@ import { ServicesOfferComponent } from './services-offer/services-offer.componen
 import {CarouselModule} from "ngx-owl-carousel-o";
 import { VideoGalleryComponent } from './video-gallery/video-gallery.component';
 import { FooterSecComponent } from './footer-sec/footer-sec.component';
-import { NewPageComponent } from './new-website/new-page/new-page.component';
-import { NavbarRoutingModule } from './navbar/navbar-routing.module';
 import { LandingComponent } from './landing/landing.component';
-import {NavbarModule} from "./navbar/navbar.module";
-import {SlideshowModule} from "./slideshow/slideshow.module";
 import {MenubarModule} from "primeng/menubar";
 import {InputTextModule} from "primeng/inputtext";
 import {ButtonModule} from "primeng/button";
+import {Navbar1Component} from "./navbar1/navbar1.component";
+import { Navbar2Component } from './navbar2/navbar2.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-
     WelAstroComponent,
     CourseInfoComponent,
     ContactSecComponent,
@@ -36,18 +30,16 @@ import {ButtonModule} from "primeng/button";
     ServicesOfferComponent,
     VideoGalleryComponent,
     FooterSecComponent,
-
     LandingComponent,
-
-
+    SlideshowComponent,
+    Navbar1Component,
+    Navbar2Component
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     CarouselModule,
-    NavbarModule,
-    SlideshowModule,
     MenubarModule,
     InputTextModule,
     ButtonModule
@@ -56,7 +48,6 @@ import {ButtonModule} from "primeng/button";
     MenubarModule,
     InputTextModule,
     ButtonModule
-
     ],
   providers: [],
   bootstrap: [AppComponent]
