@@ -1,0 +1,55 @@
+#parallax-image {
+  height:400px;
+  width: 100%;
+  margin-bottom: 50px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.f1 {
+  border: 1px solid black;
+}
+
+.f2 {
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+.f3 {
+  margin-top: 100px;
+}
+
+#pic1 {
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+#pic2 {
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  height: 74%;
+}
+
+#pic3 {
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  width: 100%;
+  height: auto;
+}
+
+#pic4 {
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  width: 100%;
+  height: auto;
+}
+#pic5 {
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  width: 100%;
+  height: auto;
+}
+
+
+
